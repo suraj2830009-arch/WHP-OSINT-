@@ -523,7 +523,7 @@ def main():
             }
 
             if choice == "0":
-                print(Fore.GREEN + "\nExiting... Thank you for using HCO-OSINT!\n")
+                print(Fore.GREEN + "\nExiting... Thank you for using WHP-OSINT!\n")
                 sys.exit()
             elif choice in options:
                 options[choice]()
